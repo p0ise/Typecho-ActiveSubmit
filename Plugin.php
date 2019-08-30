@@ -58,8 +58,8 @@ class ActiveSubmit_Plugin implements Typecho_Plugin_Interface
       if ('publish' != $contents['visibility'] || $contents['created'] > time()) {
           return;
       }
-      //一天之内的文章推送
-      if((int)$article['created']+86400 < (int)$article['modified'] ){
+      //一天之内的文章不再次推送
+      if((int)$article['created']+86400 > (int)$article['modified']){
           return;
       }
 
