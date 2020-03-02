@@ -19,6 +19,6 @@
 
 Github：<https://github.com/invelop/Typecho-ActiveSubmit>
 
-码云：<https://gitee.com/ETAS/Typecho-ActiveSubmit>
+码云：<https://gitee.com/invelop/Typecho-ActiveSubmit>
 
 博客：<https://blog.irow.top/archives/562.html>
